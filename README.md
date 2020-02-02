@@ -41,7 +41,7 @@ CSS Custom Properties are not supported in older browsers. For this, fallback pr
 
 ### Define dependency in project component
 
-Define the component dependency within each component that is using the `<ods-hyperlink>` component.
+Define the component dependency within each component that is using the `<ods-hyperlink>` or `<auro-hyperlink>` components.
 
 ```javascript
 import "@alaskaairux/ods-hyperlink";
@@ -59,7 +59,7 @@ import "@alaskaairux/ods-hyperlink/dist/auro-hyperlink";
 <auro-hyperlink>Hello World!</auro-hyperlink>
 ```
 
-## Element ods-hyperlink
+## Element ods-hyperlink / auro-hyperlink
 
 ### hyperlink use cases
 
